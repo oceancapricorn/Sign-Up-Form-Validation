@@ -77,12 +77,18 @@ body {
 
 .btn {
   cursor: pointer;
+  margin-top: 15px;
   font-size: 16px;
   color: #fff;
-  background-color: #2ecc71;
-  border: 1px solid #2ecc71;
+  background-color: #32845c;
+  border: 1px solid #32845c;
   border-radius: 5px;
   padding: 10px 0;
   width: 100%;
   border: none;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
 }
